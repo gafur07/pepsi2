@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  outline: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 57px;
+  font-family: "Inter" sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home {
+  min-height: 100vh;
+  background-color: #070a4e;
+}
+.home .container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 20px 0;
+}
+.home .container .header__logo img {
+  padding: 20px 0;
+}
+.home .container .header__right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.home .container .header__right ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.home .container .header__right ul li a {
+  color: #fff;
+}
+.home .container .header__right ul li a:hover {
+  font-size: 18px;
+  filter: drop-shadow(0 0 25px #fff);
+}
+.home .container .header__right button {
+  color: #fff;
+}
+.home .container .header__right button:hover {
+  filter: drop-shadow(0 0 20px #fff);
+}
+.home .container .page {
+  padding: 150px 0;
+}
+.home .container .page .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .container .page .row__content h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.home .container .page .row__content h1 {
+  font-size: 128px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.home .container .page .row__content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.home .container .page .row__content button {
+  transition: 0.3s ease;
+}
+.home .container .page .row__content button:hover {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 57px;
+    font-family: 'Inter' sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+// home styles
+
+
+
+.home {
+    min-height: 100vh;
+    background-color: #070a4e;
+
+    .container {
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100px;
+            padding: 20px 0;
+
+            &__logo {
+                img {
+                     padding: 20px 0;
+                }
+            }
+
+            &__right {
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    font-family: 'Inter' sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+
+                    li {
+                        a {
+                            color: #fff;
+                        }
+
+                        a:hover {
+                            font-size: 18px;
+                            filter: drop-shadow(0 0 25px #fff)
+                        }
+                    }
+                }
+                button {
+                    color: #fff;
+                }
+
+                button:hover {
+                    filter: drop-shadow(0 0 20px #fff)
+                }
+            }
+        }
+
+        .page {
+            padding: 150px 0;
+
+            .row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &__content {
+                    h2 {
+                        color: #fff;
+                        font-weight: 700;
+                        font-size: 48px;
+                        margin-bottom: 15px;
+                    }
+
+                    h1 {
+                        font-size: 128px;
+                        font-weight: 700;
+                        color: #fff;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 35px;
+                    }
+
+                    button {
+                        transition: 0.3s ease;
+                    }
+
+                    button:hover {
+                        background-color: red;
+                    }
+                }
+            }
+        }
+    }
+}
